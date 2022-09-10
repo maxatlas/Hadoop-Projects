@@ -1,0 +1,3 @@
+python RatingsBreakdown.py u.data
+python RatingsBreakdown.py -r hadoop --hadoop-streaming-jar /usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar u.data
+sudo pip install numpy==1.16
