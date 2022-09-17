@@ -1,5 +1,6 @@
 from pyspark import SparkConf, SparkContext
 
+sc = SparkContext()
 nums = parallelize([1,2,3,4])
 sc.textFile("file://...") # or s3n://, hdfs://
 hiveCtx = HiveContxt(sc) # create an RDD from HIVE and do SQL query on the HIVE context from within Spark.
